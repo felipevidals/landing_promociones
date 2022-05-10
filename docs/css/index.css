@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.journal__entry{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 104px;
+    box-shadow: 0px 0px 3px 0px darkgrey;
+    color: #000;
+}
+
+.journal__entry-picture{
+    height: 104px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.journal__entry-body{
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border-left-style: dashed;
+    border-width: 1px;
+    border-left-color: #979797;
+    /* font-weight:500; */
+}
+.journal__highlight{
+    font-size: 40px;
+    /* font-weight: bold; */
+    margin: auto;
+    margin-left: 5px;
+    font-weight:700;
+}
+.journal__entry-title{
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin: auto;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-weight:500;
+}
+
+.journal__entry-content{
+    font-size: 12px;
+    margin: auto;
+    margin-left: 5px;
+    font-weight:400;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title-3{
+    font-size: 12px;
+    font-weight: bold;
+}
+.content-3{
+    font-size: 12px;
+    color: #747f92;
+    margin-top: -4px;
+}
+.title-4{
+    font-size: 10px;
+    font-weight: bold;
+}
+.content-4{
+    font-size: 12px;
+    color: #747f92;
+    margin-top: 13px;
+}
+.title-5{
+    font-size: 9px;
+    font-weight: bold;
+}
+.content-5{
+    font-size: 12px;
+    color: #747f92;
+    margin-top: 13px;
+}
+
+.term-cond{
+    background-color: #e6f2fb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 328px;
+    height: 71px;
+    font-size: 14px;
+    align-items: center
+}
+
+.icon-info {
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+.text-term {
+    width: 256px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.link-term{
+    color: #8200ff;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+    width: 100%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #8200ff;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    font-weight:500;
+    margin-bottom: 10px;
+}
